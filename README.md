@@ -3,7 +3,7 @@ Backmapping from Multiresolution Coarse-Grained Models to Atomic  Structures of 
 
 Scripts and packages in this folder
 1. "gmx455-blogr"
-    - We added log harmonic energy term to GROMACS-4.5.5. Please install this modified package befor running backmapping simulations.
+    - We added log harmonic energy term to GROMACS-4.5.5. Please install this modified package before running backmapping simulations.
     - Installation of the modified package is the same as that of GROMACS-4.5.5
 
 2. "cgmap.py"
