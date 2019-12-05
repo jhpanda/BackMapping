@@ -22,13 +22,11 @@ Backmapping simulations
 
 2. Edit the main script blogr.sh.
     - Enviorements: Python path and modified Gromacs path.
-    - Input files: Initial AA structure, Initial *GRO (with velocities), Target CG structure, CG type (CA, COM, and others) and topology files
+    - Input files: Initial AA structure, Initial <name>.GRO (with velocities), Target CG structure, CG type (CA, COM, and others, run python cgmap.py -h for detail) and topology files.
 
 3. run blogr.sh
 
-4. After simulations, if neccessary, use clustering method to extract representative conformations as the final solution. This can be done by g_cluster.
-
-5. Your suggestions are welcomed!
+4. After simulations, if neccessary, use clustering method to extract representative conformations as the final solution. This can be done by g_cluster implemented in Gromacs or any other clustering algorithms.
 
 Reference:
 Backmapping from Multiresolution Coarse-Grained Models to Atomic Structures of Large Biomolecules by Restrained Molecular Dynamics Simulations Using Bayesian Inference
