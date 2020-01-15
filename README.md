@@ -29,7 +29,7 @@ Backmapping simulations
 4. After simulations, if neccessary, use clustering method to extract representative conformations as the final solution. This can be done by g_cluster implemented in Gromacs or any other clustering algorithms.
 
 Reference:
-Backmapping from Multiresolution Coarse-Grained Models to Atomic Structures of Large Biomolecules by Restrained Molecular Dynamics Simulations Using Bayesian Inference
-Junhui Peng, Chuang Yuan, Rongsheng Ma, and Zhiyong Zhang
-Journal of Chemical Theory and Computation 2019 15 (5), 3344-3353
+Backmapping from Multiresolution Coarse-Grained Models to Atomic Structures of Large Biomolecules by Restrained Molecular Dynamics Simulations Using Bayesian Inference\n
+Junhui Peng, Chuang Yuan, Rongsheng Ma, and Zhiyong Zhang\n
+Journal of Chemical Theory and Computation 2019 15 (5), 3344-3353\n
 DOI: 10.1021/acs.jctc.9b00062
