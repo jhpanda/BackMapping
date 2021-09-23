@@ -18,11 +18,11 @@ Scripts and packages in this folder
     - MD parameter file. Modify it accordingly.
     
 Backmapping simulations
-1. Setup your simulation system. As an initial AA structure is needed in our method. We need to setup the simulation. We recommend using Amber force fields, since currently cgmap.py is only compatible with Amber force field.
+1. Setup simulation system. As an initial AA structure is needed in our method. We need to setup the simulation. We recommend using Amber force fields, since currently cgmap.py is only compatible with Amber force field.
 
 2. Edit the main script blogr.sh.
-    - Enviorements: Python path and modified Gromacs path.
-    - Input files: Initial AA structure, Initial <name>.GRO (with velocities), Target CG structure, CG type (CA, COM, and others, run python cgmap.py -h for detail) and topology files.
+    - Enviorements: Python path and the modified Gromacs path.
+    - Input files: Initial AA structure, Initial <name>.GRO (with velocities, from production run or position restrained simulations), Target CG structure (make sure residue index match), CG type (CA, COM, and others, run python cgmap.py -h for detail) and topology files.
 
 3. run blogr.sh
 
